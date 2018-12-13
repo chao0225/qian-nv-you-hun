@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*video轮播*/
+.lunbo:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.lunbo{
+    width: 1423px;
+    height: 667px;
+    margin: 0;
+    position: relative;
+    top:616px;
+    overflow:hidden;
+}
+
+ ul.lunbo-tu {
+    position:relative;
+    width:10000px;
+}
+ ul.lunbo-tu:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+ ul.lunbo-tu li {
+    width: 1423px;
+    height: 667px;
+    position:relative;
+	float:left;
+	
+}
+ ul.lunbo-tu li video{
+   display: block;
+    width: 1920px;
+    position: relative;
+}
+ ul.lunbo-tu li video source{
+    width: 1423px;
+    height: 667px;
+    position:absolute;
+    left:-300px;
+}
+.aBox{
+    background: url(../img/index/bg_nav1_d1d2f9a.png) no-repeat;
+    width: 137px;
+    height: 490px;
+    position: absolute;
+    top: 75px;
+    left: 130px;
+    z-index: 5;
+}
+.aBox a {
+    display: block;
+    position: relative;
+    width: 103px;
+    height: 103px;
+    text-indent: -999em;
+    margin: 0 auto 8px;
+    background: url(../img/index/bg_nav1_d1d2f9a.png) no-repeat -150px -24px;
+}
+a.a1{
+	margin-top: 24px;
+    background-position: -150px -24px;
+}
+a.a2{
+	
+    background-position: -150px -135px;
+}
+a.a3{
+	
+    background-position: -150px -246px;
+}
+a.a4{
+	
+    background-position: -150px -357px;
+}
+ .aBox a:hover,.aBox .active {
+    background-position-x: -280px;
+	
+}

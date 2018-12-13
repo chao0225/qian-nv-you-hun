@@ -1,0 +1,362 @@
+
+.video-box{
+	overflow:hidden;
+	position: absolute;
+	height:1020px;
+	width:100%;
+}
+.video-box video{
+	width:1920px;
+	position:absolute;
+    left:50%;
+    top:-25px;
+	margin-left:-960px;
+    
+}
+/*logon*/
+.logon{
+	width: 350px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right:130px;
+}
+.logon>.logo{
+	display: block;
+    width: 174px;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 0;
+	background:url(../img/index/logon.png) no-repeat 0 -115px;
+}
+.go-index {
+    display: block;
+    width: 100px;
+    height: 29px;
+    position: absolute;
+    right: 60px;
+    top: 10px;
+	background:url(../img/index/logon.png) no-repeat -174px -115px;
+}
+/*中间小视频*/
+.video-center{
+    position: absolute;
+    left: 50%;
+    top: 314px;
+    width: 214px;
+    height: 115px;
+    margin-left: -92px;
+    cursor: pointer; 
+    overflow: hidden;
+}
+.video-center video{
+	width: 120%;
+    margin-left:-10px;
+	
+}
+.video-center .video-xk{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:url(../img/index/logon.png) no-repeat 0px 0px;
+}
+.video-center .video-zt i{
+    width: 26px;
+    height: 29px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -13px;
+    opacity: .8;
+    background:url(../img/index/logon.png) no-repeat -374px -115px;
+}
+a.kskc{
+    display: block;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 467px;
+    margin-left: -166px;
+    cursor: pointer;
+    background:url(../img/index/logon.png) no-repeat -214px 0px;
+}
+a.kskc:before {
+    content: '';
+    opacity: 0;
+    background: url(../img/index/sl-yy_d0b1005.png) no-repeat;
+}
+a.kskc:hover{
+	background:url(../img/index/sl-yy_d0b1005.png) no-repeat;
+	    animation: sequence 2s steps(25,end) infinite;
+}
+@keyframes sequence{
+0% {
+    background-position-y: 0;
+}
+100% {
+    background-position-y: 100%;
+}
+}
+/*注册1 2 3*/
+ .video-123{
+    height: 404px;
+    position: relative;
+    width: 1415px;
+    margin-left: -140px;
+    top: 616px;
+    padding-left: 306px;
+    background: url(../img/index/navbox_6b1767e.png) no-repeat;
+   
+}
+
+ .video-123 .video-xz,.video-123 .video-qw{
+    width: 319px;
+    height: 318px;
+    margin-left: 4px;
+    text-align: center;
+}
+
+.video-zc{
+    float: left;
+    width: 262px;
+    height: 246px;
+    padding: 119px 56px 0 31px;
+}
+.video-zc input.srk{
+    width:260px;
+    height:40px;
+    font-size:16px;
+    margin:5px 0;
+}
+.video-zc p input{
+    width:15px;
+    height:15px;
+}
+.video-zc p span:hover{
+    color:black;
+}
+.video-zc a{
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    border-radius:5px;
+    margin:10px 0;
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background:#4B7CC2;
+}
+.video-zc p{
+   width:250px;
+    margin:40px 0;
+    color:#AFB1B3;
+    font-size: 13px;
+}
+.video-123 .video-xz{
+    position: relative;
+    float: left;
+}
+.video-xz:first-child:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 37px;
+    height: 35px;
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -362px -36px;
+}
+ .video-xz a,.video-qw a{
+    position: absolute;
+    width: 238px;
+    height: 47px;
+    margin-left: -119px;
+    color: #fff;
+    line-height: 48px;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: #ad8129 1px 1px;  
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat 0px -262px;
+}
+.video-xz a:hover,.video-qw a:hover{
+    color: #75592d;
+    text-shadow: none;
+    background: url(../img/index/boot_z_52e36cf.png)  no-repeat 0px -309px;
+}
+.video-qw a{
+    left: 72%;
+}
+.video-xz a:first-child{
+    left: 80%;
+    top:80%;
+}
+.video-xz a:last-child{
+    left: 80%;
+}
+.video-qw a,.video-xz a{
+    width: 237px;
+    height: 47px;
+    top: 320px;
+}
+.video-123 .video-qw{
+    position: relative;
+    float: left;
+    width: 394px;
+    margin-left: 32px;
+}
+
+/* 右侧固定图片*/
+
+#TOP{
+    background: url(../img/index/bg_9a66427.png) no-repeat;
+    height: 684px;
+    width: 244px;
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    margin-top: -318px;
+    z-index: 1100; 
+    padding-left: 37px;
+	transition:all .6s linear;
+}
+#TOP span.xdl{
+    position: absolute;
+    top: 18px;
+    left: -103px;
+    width: 181px;
+    height: 131px;
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat 0px 0px;
+}
+#TOP span.xdl:hover{
+	background: url(../img/index/boot_z_52e36cf.png) no-repeat -181px 0px;
+}
+
+#TOP .code{
+    width: 100%;
+    height: 167px;
+    margin: 5px auto -9px;
+    background: url(../img/index/gift_e04cf86.png) no-repeat center;
+}
+#TOP .libao p{
+    color: #cbb7fe;
+    font-size: 15px;
+    cursor:pointer;
+    margin:30px 0 0 10px;
+}
+#TOP .wxh,#TOP .wxh-1{
+    text-align: center;
+    color: #cbb7fe;
+    font-size: 15px;
+    background: url(../img/index/mask_a73850d.png) no-repeat;
+    width: 193px;
+    height: 53px;
+    cursor: pointer;
+}
+#TOP .wxh{
+	line-height: 24px;
+}
+#TOP .wxh-1{
+	line-height: 53px;
+	margin-top:20px;
+}
+#TOP .wxh a{
+    text-decoration:underline;
+	color: #cbb7fe;
+}
+#TOP .wxh span,.ewm span{
+    font-size: 13px;
+}
+
+#TOP .ewm a{
+	margin-left:45px;
+    color: #cbb7fe;
+    font-size: 15px;
+}
+#TOP .ewm{
+	margin-bottom:22px;
+}
+
+#TOP .ewm span{
+	margin-left:50px;
+    color: #cbb7fe;
+    font-size: 12px;
+}
+
+.a66{
+	position:absolute;
+	top:237px;
+	left:76px;
+	text-decoration: underline;
+	color: #cbb7fe;
+}
+
+.ewm-tu{
+	background: url(../img/index/code_28b46b7.jpg) no-repeat;
+    width: 114px;
+    height: 114px;
+    margin: 15px 42px;
+}
+/*TOP 下四个小图标*/
+#TOP .tb-4:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+#TOP .tb-4{
+    margin-left: 9px;
+}
+#TOP .tb-4 .tb{
+    display: block;
+    width: 90px;
+    height: 74px;
+    text-decoration: none;
+    float: left;
+}
+.tb-4 .tb div{
+    margin: 15px auto 5px;
+    width: 21px;
+    height: 20px;
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -362px -71px;
+}
+#TOP .tb-4 .tb:nth-child(2) div{
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -399px -36px;
+}
+#TOP .tb-4 .tb:nth-child(3) div{
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -416px -36px;
+}
+#TOP .tb-4 .tb:nth-child(4) div{
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -436px -36px;
+}
+#TOP .tb-4 .tb p{
+    color: rgb(203, 183, 254);
+    font-size: 12px;
+    text-align: center;
+}
+#TOP .tb-4 .tb p:hover{
+    color: white;
+}
+#TOP .tb-4+a{
+    display: block;
+    width: 110px;
+    height: 36px;
+    margin: 0 auto 6px;
+    position: relative;
+    left: -4px;
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -237px -309px;  
+}
+#TOP .tb-4+a:hover{
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -362px 0px; 
+}
+#TOP .tp-top{
+    display: block;
+    width: 47px;
+    height: 39px;
+    margin: 15px auto;
+    background: url(../img/index/boot_z_52e36cf.png) no-repeat -237px -262px;
+}
+
+

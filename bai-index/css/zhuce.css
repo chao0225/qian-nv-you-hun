@@ -1,0 +1,224 @@
+
+
+.fade{ /*定义淡入淡出动画的初始状态,常驻元素*/
+    width:0; height:0;
+    position:fixed; 
+    transition:all 1s linear;
+    z-index:-999;opacity:0;
+}
+#xx{
+    background: url(../img/index/regpop_z_a22311f.png) no-repeat -295px -369px;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    top: 80px;
+    /* left: 1300px; */
+    right: 100px;
+    transition: all .5s ease;
+    z-index:2000;
+}
+
+.in{ /*定义淡入淡出动画的结束状态*/
+    opacity:1;z-index:1222;
+}
+#xx:hover{
+    transform: rotate(360deg);
+}
+
+#black{
+    background:rgba(0,0,0,.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index:999;
+}
+#zhuce{
+    background:url(../img/index/bg_a96bea8.png) no-repeat;
+    width: 1920px;
+    height: 800px;
+    position: fixed;
+    left: 48%;
+    top: 42%;
+    z-index: 1111;
+    color: #031c45;
+    font-size: 14px;
+    margin-left: -1000px;
+    margin-top: -368px;
+}
+
+.kk{
+    width:870px;
+    height:600px;
+    position:relative;
+    top:200px;
+    left:745px;
+}
+#zhuce-3 ul.xdao{
+    width: 575px;
+    height: 42px;
+    line-height: 42px;
+    background: url(../img/index/ll.png) no-repeat;
+    cursor: pointer;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+#zhuce-3 ul.xdao li{
+    width: 190px;
+    height: 42px;
+    float: left;
+}
+ul.xdao li:nth-child(1):hover,ul.xdao li:nth-child(1).active{
+	 background: url(../img/index/l1.png) no-repeat;
+	 z-index:10000;
+}
+ul.xdao li:nth-child(2):hover,ul.xdao li:nth-child(2).active{
+	 background: url(../img/index/l2.png) no-repeat -190px 0;
+	 z-index:10000;
+}
+ul.xdao li:nth-child(3):hover,ul.xdao li:nth-child(3).active{
+	 background: url(../img/index/l3.png) no-repeat -380px 0;
+	 z-index:10000;
+}
+
+/*下载步骤*/
+
+#zhuce-3 .bz{
+    position: absolute;
+    top: 70px;
+    left: -5px;
+}
+.bz ul.s1 {
+    width: 590px;
+    height: 540px;
+    font: 400 14px/20px 'Microsoft YaHei';
+    color: #5271af;
+    background: url(../img/index/bg-steps_a269791.png) no-repeat;
+}
+.bz ul.s1 li{
+    float: left;
+    width: 294px;
+    height: 50%;
+    padding: 0 20px 0 40px;
+}
+.bz .s1-a:hover{
+	text-decoration: underline;
+}
+
+.s12-box{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 625px;
+    height: 498px;
+    background: url(../img/index/cashpic_c4598e8.jpg) no-repeat;
+    color: #544EA0;
+}
+.s12-box h6{
+    font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+    height: 55px;
+    text-indent: -999em;
+}
+.s12-box ul{
+    padding-left: 41px;
+}
+.s12-box ul li{
+    float: left;
+    width: 225px;
+    height: 221px;
+    margin-right: 26px;
+    margin-bottom: 11px;
+    text-indent: -999em;
+}
+.s12-box ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.s13-box{
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    width: 573px;
+    height: 308px;
+    background: url(../img/index/wechatpic_4373aa6.png) no-repeat;
+    color: #767779;
+}
+.s13-box p:nth-child(1){
+    font-size: 16px;
+    color: #8070ce;
+    display: none;
+}
+.s13-box p:nth-child(2){
+    padding-top: 96px;
+    padding-left: 10px;
+}
+
+
+.zjzc{
+    position:absolute;
+    top:30px;
+    left:600px;
+}
+.zjzc p:nth-child(1){
+    background: url(../img/index/regpop_z_a22311f.png) no-repeat -125px -369px;
+    width: 170px;
+    height: 33px;
+    margin: 10px auto;
+}
+.zjzc p.jz{
+    background: url(../img/index/regpop_z_a22311f.png) no-repeat 0px -369px;
+    width: 125px;
+    height: 33px;
+    margin: 20px auto;
+    position: absolute;
+    top:270px;
+    left:50px;
+}
+.zjzc a{
+    display: block;
+    margin: 10px auto;
+    font-size: 24px;
+    color: #fff;
+    line-height: 48px;
+    text-shadow: #ad8129 1px 1px;
+    background-repeat: no-repeat;
+    width: 237px;
+    height: 47px;
+    position:absolute;
+    
+}
+.zjzc a.as1:hover,.zjzc a.as2:hover{
+    color: #75592d;
+    text-shadow: none;
+    background-repeat: no-repeat;
+    background: url(../img/index/regpop_z_a22311f.png) no-repeat 0px -275px;
+
+}
+.zjzc .as1{
+    background: url(../img/index/regpop_z_a22311f.png) no-repeat 0px -322px;
+    top:350px;
+    left:10px;
+}
+.zjzc .as2{
+    background: url(../img/index/regpop_z_a22311f.png) no-repeat 0px -322px;
+    top:410px;
+    left:10px;
+}
+ .zjzc .video-zc {
+    padding:0px 20px 0 0px;
+}
+
+.as1:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 37px;
+    height: 35px;
+    background: url(../img/index/regpop_z_a22311f.png) no-repeat -390px -322px;
+
+}
